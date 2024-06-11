@@ -1,5 +1,5 @@
 const { Given, When, Then } = require('@badeball/cypress-cucumber-preprocessor')
-const SmartBearLoginPage = require('../../../pages/smartBearLoginPage')
+const SmartBearLoginPage = require('../../../pages/SmartBearLoginPage')
 const SmartBearWebOrderPage = require('../../../pages/smartBearWebOrderPage')
 const smartBearWebOrderPage = new SmartBearWebOrderPage()
 const smartBearLoginPage = new SmartBearLoginPage()
