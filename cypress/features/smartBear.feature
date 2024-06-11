@@ -59,9 +59,9 @@ Feature: SmartBear Validation
     When user clicks on "Order" menu item
     And user enters all product information
     And user enters all address information
-      | 1 | John Doe | 12800 Des Plaines Road | Des Plaines | 12345 |
+      | John Doe | 12800 Des Plaines Road | Des Plaines | 12345 |
     And user enters all payment information
       | 12345678910 | 01/28 |
-# And user clicks on "Process" button
-# And user clicks on "View all orders" menu item
-# Then validate all information entered displayed correct with the order
+    And user clicks on "Process" button
+    And user clicks on "View all orders" menu item
+    Then validate all information entered displayed correct with the order

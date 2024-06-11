@@ -74,6 +74,10 @@ Then(/^user enters all payment information$/, (dataTable) => {
   smartBearWebOrderPage.getVisaCard().click()
 
   smartBearWebOrderPage.getPaymentFields().each(($el, index) => {
-    cy.wrap($el).clear().type(paymentInfo[index])
+    cy.wrap($el).type(paymentInfo[index])
   })
+})
+
+Then(/^validate all information entered displayed correct with the order$/, () => {
+	
 })
